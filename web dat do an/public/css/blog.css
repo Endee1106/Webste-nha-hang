@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+    outline: none;
+}
+input {
+    line-height: normal;
+}
+label,
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Mulish', sans-serif;
+}
+
+.home_hinhnen {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('https://miraclestudio.design/html/deliciousa-html/assets/images/bg/newsletter-bg1.jpg');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sidebar {
+    width: 272px;
+}
+li {
+    list-style: none;
+}
+.form_group input[type='email'] {
+    background-color: transparent;
+    border-bottom: 1px solid #797979;
+    padding: 0 0 14px !important;
+    width: 100%;
+    outline: none;
+}
+input {
+    border: none;
+}
+
+.blog {
+    height: unset;
+}
